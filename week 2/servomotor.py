@@ -19,4 +19,3 @@ try:
 except KeyboardInterrupt:         #Si el usuario pulsa CONTROL+C entonces...
     p.stop()                      #Detenemos el servo 
     GPIO.cleanup()                #Limpiamos los pines GPIO de la Raspberry y cerramos el script
-
