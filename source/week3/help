@@ -1,0 +1,5 @@
+
+Terminal:
+	$ sudo apt-get install python-serial
+	$ sudo usermod -a -G tty pi
+	$ sudo usermod -a -G dialout pi

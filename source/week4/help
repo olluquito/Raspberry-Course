@@ -1,0 +1,5 @@
+Raspberry Pi Camera:
+	$ sudo apt-get updata && sudo apt-get upgrade
+	$ sudo raspi-config
+OpenCV:
+	$ sudo apt-get install python-opencv python-scipy python-numpy python-pip

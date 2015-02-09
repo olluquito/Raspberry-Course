@@ -1,0 +1,22 @@
+Install Raspbian:
+	(Windows):
+		- Win32DiskImager
+			http://sourceforge.net/projects/win32diskimager/files/latest/download
+	(Linux):
+		$ sudo dd bs=4M if=/path/of/2014-09-09-wheezy-raspbian.img of=/dev/mmcblk0
+		$ sync
+- Putty
+    	Windows:
+		http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
+    	Linux:
+		(ubuntu):
+			$ sudo apt-get install putty
+		(fedora):
+			$ sudo yum install putty
+		(Arch Linux):
+			$ sudo pacman -S putty
+-SCP:
+	scp archivo.txt pi@172.20.10.117:"/home/pi"
+
+NMAP:
+	sudo nmap -sn IP.OF.RED.0/24
